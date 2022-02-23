@@ -1,0 +1,237 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# B3U-1000P-dk_Tactile-Switches
+#
+DEF B3U-1000P-dk_Tactile-Switches S 0 40 Y Y 1 F N
+F0 "S" 0 160 60 H V C CNN
+F1 "B3U-1000P-dk_Tactile-Switches" 0 -100 60 H V C CNN
+F2 "digikey-footprints:Switch_Tactile_SMD_B3U-1000P" 200 200 60 H I L CNN
+F3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" 200 300 60 H I L CNN
+F4 "SW1020CT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "B3U-1000P" 200 500 60 H I L CNN "MPN"
+F6 "Switches" 200 600 60 H I L CNN "Category"
+F7 "Tactile Switches" 200 700 60 H I L CNN "Family"
+F8 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/omron-electronics-inc-emc-div/B3U-1000P/SW1020CT-ND/1534357" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "SWITCH TACTILE SPST-NO 0.05A 12V" 200 1000 60 H I L CNN "Description"
+F11 "Omron Electronics Inc-EMC Div" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C -60 0 10 0 1 0 N
+C 60 0 10 0 1 0 N
+P 2 0 1 0 -100 0 -70 0 N
+P 2 0 1 0 -70 50 70 50 N
+P 2 0 1 0 -40 110 40 110 N
+P 2 0 1 0 0 50 0 110 N
+P 2 0 1 0 100 0 70 0 N
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# BD48K35G-TL-MySymbol
+#
+DEF BD48K35G-TL-MySymbol U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "BD48K35G-TL-MySymbol" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -50 -50 200 -450 0 1 0 f
+X GND 1 -150 -150 100 R 50 50 1 1 W
+X Vout 2 -150 -250 100 R 50 50 1 1 O
+X VDD 3 -150 -350 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# EG1218-dk_Slide-Switches
+#
+DEF EG1218-dk_Slide-Switches S 0 0 Y Y 1 F N
+F0 "S" -150 90 50 H V C CNN
+F1 "EG1218-dk_Slide-Switches" 0 -210 50 H V C CNN
+F2 "digikey-footprints:Switch_Slide_11.6x4mm_EG1218" 200 200 50 H I L CNN
+F3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" 200 300 60 H I L CNN
+F4 "EG1903-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "EG1218" 200 500 60 H I L CNN "MPN"
+F6 "Switches" 200 600 60 H I L CNN "Category"
+F7 "Slide Switches" 200 700 60 H I L CNN "Family"
+F8 "http://spec_sheets.e-switch.com/specs/P040040.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/e-switch/EG1218/EG1903-ND/101726" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "SWITCH SLIDE SPDT 200MA 30V" 200 1000 60 H I L CNN "Description"
+F11 "E-Switch" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C -90 0 14 0 1 0 F
+C 90 -100 14 0 1 0 F
+C 100 100 14 0 1 0 F
+P 2 0 1 0 -80 0 120 90 N
+X ~ 1 200 100 100 L 50 50 1 1 P
+X ~ 2 -200 0 100 R 50 50 1 1 P
+X ~ 3 200 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# IRLML6402TRPBF-dk_Transistors-FETs-MOSFETs-Single
+#
+DEF IRLML6402TRPBF-dk_Transistors-FETs-MOSFETs-Single Q 0 0 Y Y 1 F N
+F0 "Q" -106 143 60 H V R CNN
+F1 "IRLML6402TRPBF-dk_Transistors-FETs-MOSFETs-Single" 136 0 60 V V C CNN
+F2 "digikey-footprints:SOT-23-3" 200 200 60 H I L CNN
+F3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" 200 300 60 H I L CNN
+F4 "IRLML6402PBFCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "IRLML6402TRPBF" 200 500 60 H I L CNN "MPN"
+F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F7 "Transistors - FETs, MOSFETs - Single" 200 700 60 H I L CNN "Family"
+F8 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/infineon-technologies/IRLML6402TRPBF/IRLML6402PBFCT-ND/812500" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "MOSFET P-CH 20V 3.7A SOT-23" 200 1000 60 H I L CNN "Description"
+F11 "Infineon Technologies" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C -50 0 130 0 1 0 f
+C 0 -75 5 0 1 0 N
+C 0 -55 5 0 1 0 N
+C 0 75 5 0 1 0 N
+P 2 0 1 0 0 -55 -100 -55 N
+P 3 0 1 0 -200 -100 -120 -100 -120 55 N
+P 3 0 1 0 0 -100 0 0 -100 0 N
+P 3 0 1 0 0 100 0 55 -100 55 N
+P 5 0 1 0 -5 -75 40 -75 40 55 40 75 -5 75 N
+P 2 1 1 0 -100 -55 -100 -75 N
+P 2 1 1 0 -100 -55 -100 -35 N
+P 2 1 1 0 -100 0 -100 -20 N
+P 2 1 1 0 -100 0 -100 20 N
+P 2 1 1 0 -100 75 -100 35 N
+P 2 1 1 0 60 -8 20 -8 N
+P 4 1 1 0 -15 0 -45 20 -45 -20 -15 0 F
+P 4 1 1 0 40 -10 60 20 20 20 40 -10 F
+X G 1 -300 -100 100 R 50 50 1 1 B
+X S 2 0 -200 100 U 50 50 1 1 B
+X D 3 0 200 100 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# MCP73831T-2ATI_OT-dk_PMIC-Battery-Chargers
+#
+DEF MCP73831T-2ATI_OT-dk_PMIC-Battery-Chargers U 0 40 Y Y 1 F N
+F0 "U" -200 140 60 H V R CNN
+F1 "MCP73831T-2ATI_OT-dk_PMIC-Battery-Chargers" 10 -350 60 H V L CNN
+F2 "digikey-footprints:SOT-753" 200 200 60 H I L CNN
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" 200 300 60 H I L CNN
+F4 "MCP73831T-2ATI/OTCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "MCP73831T-2ATI/OT" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "PMIC - Battery Chargers" 200 700 60 H I L CNN "Family"
+F8 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/microchip-technology/MCP73831T-2ATI-OT/MCP73831T-2ATI-OTCT-ND/1979803" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC CONTROLLR LI-ION 4.2V SOT23-5" 200 1000 60 H I L CNN "Description"
+F11 "Microchip Technology" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S 300 100 -300 -300 0 1 0 f
+X STAT 1 400 -100 100 L 50 50 1 1 O
+X VSS 2 0 -400 100 U 50 50 1 1 W
+X VBAT 3 400 0 100 L 50 50 1 1 w
+X VDD 4 0 200 100 D 50 50 1 1 W
+X PROG 5 -400 -100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# S-816-MySymbol
+#
+DEF S-816-MySymbol U 0 40 Y Y 1 F N
+F0 "U" -300 250 50 H V L CNN
+F1 "S-816-MySymbol" 0 250 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ DIP*
+ PDIP*
+ SOIC*
+ SO*
+ TSSOP*
+$ENDFPLIST
+DRAW
+S -300 200 300 -100 0 1 0 f
+X EXT 1 -400 150 100 R 50 50 1 1 B
+X VSS 2 -400 50 100 R 50 50 1 1 B
+X ON/OFF 3 -400 -50 100 R 50 50 1 1 B
+X Vin 4 400 50 100 L 50 50 1 1 W
+X Vout 5 400 150 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# UJC-HP-3-SMT-TR-MySymbol
+#
+DEF UJC-HP-3-SMT-TR-MySymbol J 0 40 Y Y 1 L N
+F0 "J" -300 350 50 H V L BNN
+F1 "UJC-HP-3-SMT-TR-MySymbol" -300 -450 50 H V L BNN
+F2 "CUI_UJC-HP-3-SMT-TR" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+F5 "1.0" 0 0 50 H I L BNN "PARTREV"
+F6 "CUI Devices" 0 0 50 H I L BNN "MANUFACTURER"
+F7 "3.16mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+DRAW
+S -300 -400 300 300 0 0 10 f
+X GND A12 -500 -100 200 R 40 40 0 0 W
+X CC1 A5 -500 200 200 R 40 40 0 0 B
+X V-BUS A9 -500 0 200 R 40 40 0 0 W
+X GND B12 -500 -100 200 R 40 40 0 0 W
+X CC2 B5 -500 100 200 R 40 40 0 0 B
+X V-BUS B9 -500 0 200 R 40 40 0 0 w
+X SHIELD S1 -500 -300 200 R 40 40 0 0 P
+X SHIELD S2 -500 -300 200 R 40 40 0 0 P
+X SHIELD S3 -500 -300 200 R 40 40 0 0 P
+X SHIELD S4 -500 -300 200 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# UJC-HP-3-SMT-TR-UJC-HP-3-SMT-TR
+#
+DEF UJC-HP-3-SMT-TR-UJC-HP-3-SMT-TR J 0 40 Y Y 1 L N
+F0 "J" -300 350 50 H V L BNN
+F1 "UJC-HP-3-SMT-TR-UJC-HP-3-SMT-TR" -300 -450 50 H V L BNN
+F2 "CUI_UJC-HP-3-SMT-TR" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+F5 "1.0" 0 0 50 H I L BNN "PARTREV"
+F6 "CUI Devices" 0 0 50 H I L BNN "MANUFACTURER"
+F7 "3.16mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+DRAW
+S -300 -400 300 300 0 0 10 f
+X GND A12 -500 -100 200 R 40 40 0 0 W
+X CC1 A5 -500 200 200 R 40 40 0 0 B
+X V-BUS A9 -500 0 200 R 40 40 0 0 w
+X GND B12 -500 -100 200 R 40 40 0 0 W
+X CC2 B5 -500 100 200 R 40 40 0 0 B
+X V-BUS B9 -500 0 200 R 40 40 0 0 w
+X SHIELD S1 -500 -300 200 R 40 40 0 0 P
+X SHIELD S2 -500 -300 200 R 40 40 0 0 P
+X SHIELD S3 -500 -300 200 R 40 40 0 0 P
+X SHIELD S4 -500 -300 200 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# gy-bno055-MySymbol
+#
+DEF gy-bno055-MySymbol U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "gy-bno055-MySymbol" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -200 -50 150 -850 0 1 0 f
+X VIN 1 250 -100 100 L 50 50 1 1 W
+X GND 2 250 -200 100 L 50 50 1 1 W
+X SCL 3 250 -300 100 L 50 50 1 1 I
+X SDA 4 250 -400 100 L 50 50 1 1 I
+X ADO 5 250 -500 100 L 50 50 1 1 I
+X INT 6 250 -600 100 L 50 50 1 1 B
+X BOOT 7 250 -700 100 L 50 50 1 1 B
+X REST 8 250 -800 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library
